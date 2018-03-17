@@ -1,0 +1,374 @@
+/* .allevent{
+  padding-bottom: 50px;
+
+
+}
+
+.allevent .thumbnailisi{
+  margin:20px 30px 30px 0px;
+} */
+
+.pagination{
+  background: red;
+}
+
+
+.update-img img{
+  max-width: 50vh;
+  max-height: 50vh;
+}
+
+
+/* ALL EVENT */
+
+.form-search{
+  margin-bottom: 50px;
+  width: 100%;
+
+}
+
+.form-search input{
+  width: 50%;
+  padding: 10px;
+
+
+}
+.form-search button{
+  padding: 12px;
+
+}
+
+
+
+
+.allevent{
+
+	padding-top: 30px;
+	padding-bottom: 100px;
+	background: whitesmoke;
+}
+.allevent-content{
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 3px gray;
+	min-height: 68vh;
+	background: white;
+border-radius: 5px;
+
+}
+
+.allevent .thumbnail-1{
+height: 190px;
+	width:100%;
+	background-position: center center;
+ background-repeat: no-repeat;
+ background-size:cover;
+}
+
+
+
+.allevent .caption{
+	padding: 0px 10px 0px 10px;
+
+}
+.allevent .caption span{
+	font-family:Source Sans Pro;
+}
+
+.allevent .caption  i{
+margin-top: 15px;
+margin-bottom: 10px;
+
+font-size: 13px;
+color: #332f2f;
+}
+.allevent .caption p{
+font-family:Source Sans Pro;
+	padding-top: 10px;
+
+font-size: 15px;
+
+line-height: 19px;
+color: black;
+word-wrap: break-word;
+text-align: justify;
+height: 14vh;
+
+
+}
+.allevent .caption h3{
+	font-family: 'Work Sans',sans-serif;
+	color: black;
+	line-height: 20px;
+	font-size: 15px;
+	font-weight: 600;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+
+.allevent .allevent-content .caption a:after{
+
+	content: '';
+position: absolute;
+opacity: 1;
+left: 10%;
+width:80%;
+height: 2px;
+background-color: black;
+
+
+}
+.allevent .caption a:hover{
+	text-decoration: none;
+
+}
+.allevent .readmore a,
+.allevent .readmore{
+	text-decoration: none;
+	width: 50%;
+  display: block;
+	padding: 2px 10px 5px 10px;
+}
+.allevent .readmore:after{
+	position: absolute;
+	content: "";
+	height: 2px;
+	bottom: 16%;
+	left:15%;
+	width: 26%;
+	background:linear-gradient(to right,yellow,black);
+}
+
+.allevent .readmore a{
+color: black;
+font-family:Arial;
+font-weight: bold;
+
+}
+.allevent .readmore a:hover{
+color: gray;
+}
+
+.allevent .hoverread{
+	position: absolute;
+	right: 10%;
+	bottom: 15%;
+}
+
+.allevent-content:hover .hoverread ul li{
+	display: inline-block;
+}
+
+.allevent .hoverread ul li{
+display: none;
+animation: panah linear forwards 1s infinite;
+}
+
+.allevent .hoverread ul li:nth-child(1){
+
+	animation-delay: 0.1s;
+}
+.allevent .hoverread ul li:nth-child(2){
+	animation-delay: 0.2s;
+}
+.allevent .hoverread ul li:nth-child(3){
+	animation-delay: 0.3s;
+}
+.allevent .hoverread ul li:nth-child(4){
+	animation-delay: 0.4s;
+}
+
+@keyframes panah {
+		0%{
+				transform: translate(-10px);
+
+		}
+
+
+		100%{
+			transform: translate(0px);
+
+		}
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+	.allevent .thumbnail-1{
+	height: 90vh;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	.allevent .thumbnail-1{
+	height: 40vh;
+	}
+}
+
+/* AKHIR ALL EVENT */
+
+
+/* BAGIAN CREATE */
+
+
+
+/*bagian create  */
+
+
+/* BAGIAN CONTACT */
+.contact_message{
+  padding-top: 50px;
+}
+
+ .table-content{
+max-width: 100%;
+white-space: nowrap;
+}
+
+.table-content th {
+    background-color: #dddddd;
+}
+
+.table-content tr:hover{
+  background-color:#dddddd;
+}
+
+
+.mail-box{
+
+
+  padding: 10px;
+}
+
+.mail-box hr{
+  border-top: 1px solid gray;
+}
+
+.mail-box textarea{
+  padding: 10px;
+
+}
+
+.mail-content{
+    box-shadow: 1px 1px 5px gray;
+    padding: 10px;
+    background: white;
+}
+
+.mail-content .subject{
+  background: white;
+  padding: 10px;
+
+}
+
+.mail-content .subject textarea{
+  width: 100%;
+  min-height:40vh;
+}
+
+
+
+
+
+
+/*akhkir bagian contact  */
+
+
+
+/*BAGIAN EVENT SLUG  */
+.isinews img{
+  max-height: 70vh;
+}
+
+.isinews {
+  padding: 50px;
+}
+
+.isinews .hr-style{
+  width: 95%;
+  height: 2px;
+  background: gray;
+  margin-bottom: 20px;
+}
+
+
+/*event slug  */
+
+/*GALLERY  */
+.activity{
+
+}
+.activity .container .judul{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+
+}
+
+
+.activity .container .caption{
+	text-align: center;
+
+}
+
+
+.activity  .thumbnail a:hover,
+.activity  .thumbnail:hover span{
+	opacity: 0.5;
+	display: block;
+	transition: 1s;
+
+}
+
+.activity .thumbnail:hover span{
+	opacity: 1;
+	display: block;
+	transition: 1s;
+}
+
+.activity .thumbnail
+{
+
+	display: block;
+}
+.activity .thumbnail img
+{
+	width: 100%;
+	height: 40vh;
+	display: block;
+}
+
+
+.activity .thumbnail span{
+	position: absolute;
+	top:25%;
+	left: 45%;
+	font-size: 45px;
+	color: #f6c300;
+	display: none;
+}
+
+.img-content{
+  max-width: 400px;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.img-content img{
+  width: 100%;
+  height:auto;
+
+}
+
+.editgambar img{
+  max-width:400px;
+  max-height: 400px;
+}
+/*AKHIR GALLERY  */
